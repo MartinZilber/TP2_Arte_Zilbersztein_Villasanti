@@ -1,22 +1,53 @@
 *{
-    border: solid white 1px;
+    border: solid black 1px;
     margin: 0px;
     padding:0px;
 }
+header{
+    width:100%;
+    height: auto;
+    background-color: antiquewhite;
+}
 header img{
+    height:30%;
     width:3%;
     height:auto;
     float: left;
 }
 header p{
-    width:11%;
+    width:8%;
     height:auto;
+    margin-top:1%;
+    margin-right:0%;
+    float:left;
 }
-
+header img[src="Images/Gobierno de Mendoza.webp"]{
+    display:flex;
+    width: 10%;
+    height:auto;
+    margin-left:11%;
+    margin-top:0.2%;
+    justify-content: end;
+    
+}
 header nav ul li{
     float:left;
     list-style-type: none;
+    margin-left:8%;
+    margin-top:0.75%;
+    justify-content: center;
+}
+header nav ul li:hover{
+    text-decoration: underline black;
 }
 header nav ul li a{
     text-decoration: none;
+}
+header h1{
+    clear:left;
+    text-align:center;
+    background-color:white;
+}
+main h1{
+    
 }
