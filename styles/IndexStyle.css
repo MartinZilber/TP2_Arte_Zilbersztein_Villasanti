@@ -1,3 +1,9 @@
 *{
     border: solid black 1px;
+    margin: 0px;
+    padding:0px;
+}
+header section img{
+width:5%;
+height:auto;
 }
