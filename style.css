@@ -1,0 +1,22 @@
+*{
+    border: solid white 1px;
+    margin: 0px;
+    padding:0px;
+}
+header img{
+    width:3%;
+    height:auto;
+    float: left;
+}
+header p{
+    width:11%;
+    height:auto;
+}
+
+header nav ul li{
+    float:left;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+}
