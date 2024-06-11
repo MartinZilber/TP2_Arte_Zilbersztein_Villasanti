@@ -58,7 +58,7 @@ main h3{
     display:flex;
     width:37%;
     height:auto;
-    margin-left:33%;
+    margin: 0 auto;
     text-align:center;
     justify-content: center;
     margin-bottom:5px;
