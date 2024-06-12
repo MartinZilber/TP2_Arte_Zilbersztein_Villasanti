@@ -120,8 +120,43 @@ main .primeraSeccion ul li{
     background-color:whitesmoke;
 }
 
+main .primeraSeccion h6{
+    width:30%;
+    height:auto;
+    margin-left:1%;
+    clear:left;
+    font-size: medium;
+}
+
+main .primeraSeccion img[src="Images/Alta Montaña - Mendoza.jpg"], .primeraSeccion img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
+width:30%;
+}
 
 footer{
+    clear:left;
+    background-color:antiquewhite;
+}
+footer img[src="Images/BlackMango.png"]{
+    width:10%;
+    height:auto;
+    margin-top:0%;
+}
+footer p{
+    width:25%;
+    height:auto;
+    float:left;
+    margin-left:1%;
+}
+footer img{
+    width:3%;
+    margin-left:1%;
+    float:left;
+    margin-top:5%;
+}
+footer h6{
+    width:15%;
+    height:auto;
+    margin-left:0%;
     clear:left;
 }
 
