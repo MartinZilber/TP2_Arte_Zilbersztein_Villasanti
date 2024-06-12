@@ -76,19 +76,19 @@ main h3{
 main div{
     clear:left;
 }
-main div h2{
+main .primeraSeccion h2{
     width:20%;
     height:auto;
     margin-right:90%;
     padding-left:10px;
 }
-main div img{
+main .primeraSeccion img{
     display:flex;
     width:50%;
     margin-left:49%;
     margin-bottom:2%;
 }
-main div p{
+main .primeraSeccion p{
     width:35%;
     height:auto;
     float:left;
@@ -96,19 +96,32 @@ main div p{
     padding:5px;
     margin-top:3px;
 }
-main div h5{
+main .primeraSeccion h5{
     width:20%;
     height:auto;
-    float:left;
-    margin-bottom:0%;
-}
-main div div{
-    width: 5%;
-    height:auto;
+    margin-top:-5%;
     margin-left:0%;
-    margin-bottom:1%;
+    padding-left:0.3%;
 }
-main div h6{
-    width:100%;
+main .primeraSeccion ul{
+    width: 20%;
+    height:auto;
+    margin-left:1%;
+    margin-bottom:3%;
+    clear:left;
+}
+main .primeraSeccion ul li{
+    width:auto;
+    height:auto;
+    float:left;
+    list-style-type: none;
+    margin-right:4%;
+    border-radius: 2px;
+    background-color:whitesmoke;
+}
+
+
+footer{
+    clear:left;
 }
 
