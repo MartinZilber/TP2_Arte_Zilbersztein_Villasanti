@@ -3,6 +3,7 @@
     margin: 0px auto;
     padding:0px auto;
 }
+/*INDEX*/
 header{
     width:100%;
     height: auto;
@@ -38,12 +39,12 @@ header nav ul li{
     text-decoration: none;
     border-radius: 2px;
 }
-header nav ul li a{
+a{
     text-decoration: none;
     color: black;
 }
 header nav ul li a:hover{
-    background-color:whitesmoke;
+    background-color: #cfd8dc;
     border-radius:2px;
     text-decoration: underline black;
     color: black;
@@ -106,7 +107,7 @@ main .primeraSeccion h5{
 main .primeraSeccion ul{
     width: 20%;
     height:auto;
-    margin-left:1%;
+    margin-left:-3%;
     margin-bottom:3%;
     clear:left;
 }
@@ -128,7 +129,7 @@ main .primeraSeccion h6{
     font-size: medium;
 }
 
-main .primeraSeccion img[src="Images/Alta Montaña - Mendoza.jpg"], .primeraSeccion img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
+main .primeraSeccion img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
 width:30%;
 }
 
@@ -160,3 +161,34 @@ footer h6{
     clear:left;
 }
 
+/*DUDAS FRECUENTES*/
+main details{
+    width:35%;
+    margin-bottom:1%;
+    margin-top:2%;
+    background-color:antiquewhite;
+    border-radius:3px;   
+    border: 0px;
+}
+main details summary{
+    list-style: none;
+    font-size:larger;
+}
+main details summary:hover{
+    cursor:pointer;
+    user-select:none;
+}
+main details summary::before{
+    content:'+';
+    margin-left:2px;
+    padding:1px;
+}
+main details[open] summary::before{
+    content: '-';
+    margin-left:2px;
+    padding:1px;
+}
+main details p{
+padding-left:1%;
+font-size:large;
+}
