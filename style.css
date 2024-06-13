@@ -1,5 +1,5 @@
 *{
-    
+    border: solid 1px black;
     margin: 0px auto;
     padding:0px auto;
 }
@@ -39,12 +39,13 @@ header nav ul li{
     text-decoration: none;
     border-radius: 2px;
 }
-a{
+header nav ul li a{
     text-decoration: none;
     color: black;
+    padding:2px;
 }
 header nav ul li a:hover{
-    background-color: #cfd8dc;
+    background-color: #7B8CDE;
     border-radius:2px;
     color: black;
     transition: background-color 0.3s;
@@ -141,31 +142,42 @@ footer img[src="Images/BlackMango.png"]{
     width:10%;
     height:auto;
     margin-top:0%;
-}
-footer p{
-    width:25%;
-    height:auto;
     float:left;
-    margin-left:1%;
 }
-footer img{
-    width:3%;
-    margin-left:1%;
+footer div{
+    width:20%;
     float:left;
-    margin-top:5%;
+    margin-top:2%;
+    margin-left:2%;
 }
-footer h6{
-    width:15%;
+footer div p{
+    width:100%;
     height:auto;
-    margin-left:0%;
     clear:left;
 }
+footer ul{
+    clear:left
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li img{
+   width:3%;
+   float:left;
+   margin-left:1%
+}
+/*footer h6{
+    width:15%;
+    height:auto;
+    margin-left:2%;
+    clear:left;
+}*/
 
 /*DUDAS FRECUENTES*/
 main details{
-    width:35%;
-    margin-bottom:1%;
-    margin-top:2%;
+    width:45%;
+    margin-bottom:2%;
+    margin-top:2.5%;
     background-color:antiquewhite;
     border-radius:3px;   
     border: 0px;
@@ -173,6 +185,7 @@ main details{
 main details summary{
     list-style: none;
     font-size:larger;
+    font-family:'Franklin Gothic Medium';
 }
 main details summary:hover{
     cursor:pointer;
@@ -189,6 +202,6 @@ main details[open] summary::before{
     padding:1px;
 }
 main details p{
-padding-left:1%;
-font-size:large;
+    padding-left:1%;
+    font-size:large;
 }
