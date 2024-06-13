@@ -1,5 +1,5 @@
 *{
-    border: 1px solid black;
+    
     margin: 0px auto;
     padding:0px auto;
 }
@@ -46,8 +46,8 @@ a{
 header nav ul li a:hover{
     background-color: #cfd8dc;
     border-radius:2px;
-    text-decoration: underline black;
     color: black;
+    transition: background-color 0.3s;
 }
 header h1{
     clear:left;
