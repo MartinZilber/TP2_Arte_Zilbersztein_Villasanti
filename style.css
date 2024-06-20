@@ -8,30 +8,19 @@ header{
     width:100%;
     height: auto;
     background-color: antiquewhite;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 header img{
-    height:30%;
     width:3%;
     height:auto;
-    float: left;
-}
-header p{
-    width:8%;
-    height:auto;
-    margin-top:1%;
     margin-right:0%;
     float:left;
 }
-header img[src="Images/Gobierno de Mendoza.webp"]{
-    display:flex;
-    width: 10%;
+header p{
+    float:left;
+    width:8%;
     height:auto;
-    margin-left:11%;
-    margin-top:0.2%;
+    margin-top:1%;
+    margin-left:0%;
 }
 header nav ul li{
     width:auto;
@@ -39,7 +28,6 @@ header nav ul li{
     list-style-type: none;
     margin-left:8%;
     margin-top:0.75%;
-    justify-content: center;
     text-decoration: none;
     border-radius: 2px;
 }
@@ -50,10 +38,17 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: #7B8CDE;
-    border-radius:2px;
     transition: background-color 0.3s;
 }
+header img[src="Images/Gobierno de Mendoza.webp"]{
+    float:left;
+    width: 10%;
+    height:auto;
+    margin-left:7%;
+    margin-top:0.2%;
+}
 header h1{
+    margin-left:3%;
     clear:left;
     text-align:center;
     background-color:white;
@@ -79,6 +74,7 @@ main div{
     background-color: antiquewhite;
 }
 main div h2{
+    display:inline-block;
     width:50%;
     height:auto;
     margin-left:34%;
@@ -110,15 +106,6 @@ main div ul li{
     list-style-type: none;
     border-radius: 2px;
     background-color:whitesmoke;
-    margin-right:3%;
-}
-
-main div h6{
-    width:30%;
-    height:auto;
-    margin-left:1%;
-    clear:left;
-    font-size: medium;
 }
 
 main div img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
