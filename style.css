@@ -8,6 +8,7 @@ header{
     width:100%;
     height: auto;
     background-color: antiquewhite;
+    display: inline-block;
 }
 header img{
     width:3%;
@@ -144,12 +145,12 @@ footer ul li img{
    float:left;
    margin-left:1%
 }
-/*footer h6{
+footer h6{
     width:15%;
     height:auto;
     margin-left:2%;
     clear:left;
-}*/
+}
 
 /*DUDAS FRECUENTES*/
 main details{
