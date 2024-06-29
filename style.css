@@ -3,6 +3,10 @@
     margin: 0px auto;
     padding:0px auto;
 }
+*:visited{
+    text-decoration: none;
+    color:black;
+}
 /*INDEX*/
 header{
     width:100%;
@@ -167,6 +171,9 @@ main details[open] summary::before{
     content: '-';
     margin-left:2px;
     padding:1px;
+}
+main details summary a:visited{
+    text-decoration: none;
 }
 main details p{
     padding-left:1%;
