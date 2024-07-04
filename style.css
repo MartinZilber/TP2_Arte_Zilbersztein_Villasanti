@@ -2,7 +2,7 @@
     margin: 0px auto;
     padding:0px auto;
 }
-*:visited{
+header:visited{
     text-decoration: none;
     color:black;
 }
@@ -194,5 +194,12 @@ main details p{
     font-size:large;
 }
 
-/* SOBRE NOSOTROS */
-
+/* RESERVA */
+body main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main form input[type="radio"]{
+    align-items: start;
+}
