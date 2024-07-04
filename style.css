@@ -25,8 +25,6 @@ header nav{
 header nav ul{
     display:flex;
     align-items:center;
-    margin-left:5%;
-    margin-right:5%;
     margin-top:1%;
 }
 header nav ul li{
@@ -34,12 +32,11 @@ header nav ul li{
     float:left;
     list-style-type: none;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 header nav ul li a{
     text-decoration: none;
     color: black;
-    padding:2px;
     font-size:1vw;
 }
 header nav ul li a:hover{
@@ -70,7 +67,9 @@ main h3{
     margin: 0 auto;
     text-align:center;
     justify-content: center;
-    margin-bottom:5px;
+    margin-bottom:0.6%;
+    margin-top:0.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main iframe{
     display:flex;
@@ -154,6 +153,7 @@ footer h6{
     height:auto;
     margin-left:2%;
     clear:left;
+    font-size:0.8vw;
 }
 
 /*DUDAS FRECUENTES*/
