@@ -110,7 +110,7 @@ footer{
     background-color:antiquewhite;
 }
 footer img[src="Images/BlackMango.png"]{
-    width:10%;
+    width:5%;
     height:auto;
     margin-top:0%;
     float:left;
@@ -133,7 +133,7 @@ footer ul li{
     list-style-type: none;
 }
 footer ul li img{
-   width:3%;
+   width:2%;
    float:left;
    margin-left:1%
 }
