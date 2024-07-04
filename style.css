@@ -194,10 +194,24 @@ main details p{
 
 /* RESERVA */
 body main form{
+    width:30%;
+    border-radius:3px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: antiquewhite;
+    margin-bottom:1%;
+}
+body main form h6{
+    font-size:100%;
 }
 body main form input[type="radio"]{
-    align-items: start;
 }
+body main form input[type="submit"]{
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+/*SOBRE NOSOTROS*/
+
+
