@@ -146,7 +146,7 @@ footer ul{
 }
 footer ul li{
     list-style-type: none;
-    width:20%;
+    display: inline;
 }
 footer ul li img{
    width:20%;
@@ -196,3 +196,6 @@ main details p{
     padding-left:1%;
     font-size:large;
 }
+
+/* SOBRE NOSOTROS */
+
