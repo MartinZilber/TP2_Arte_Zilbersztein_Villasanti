@@ -89,36 +89,36 @@ main iframe{
     display:flex;
     width: 560px;
     height: 315px;
+    margin-top:1%;
 }
-main div{
+main section div{
     width: 30%;
     height:auto;
     border: 1px solid black;
+    border-radius:3px;
     margin-top:3%;
     background-color: antiquewhite;
     margin-bottom:1%;
 }
-main div h2{
+main section div h2{
     width: fit-content;
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
 }
-main div img{
+main section div img{
     display:flex;
     width:70%;
     margin-left:16%;
     margin-bottom:2%;
     margin-top:1%;
 }
-main div p{
+main section div p{
     width:80%;
 }
-
-main div img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
-width:30%;
+main section div img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
+    width:30%;
 }
-
 footer{
     clear:left;
     background-color:antiquewhite;
@@ -152,9 +152,6 @@ footer ul li{
 }
 footer ul li img{
    width:3%;
-}
-footer ul li a{
-    
 }
 footer h6{
     width:15%;
