@@ -226,4 +226,7 @@ main iframe{
     height: 315px;
     margin-top:1%;
 }
+main p{
+    text-align:center;
+}
 
