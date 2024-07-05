@@ -203,6 +203,7 @@ body main form h6{
     font-size:100%;
     font-family: "Noto Sans", sans-serif;
     margin-top:1%;
+    text-align: center;
 }
 body main form select{
     margin-bottom:1%;
@@ -212,9 +213,6 @@ body main form select{
 body main form [type="date"]{
     margin-bottom:1%;
     margin-top:1%;
-}
-body main form input[type="radio"]{
-    display:flex;
 }
 body main form input[type="submit"]{
     margin-bottom:1%;
