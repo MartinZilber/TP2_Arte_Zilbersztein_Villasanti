@@ -103,6 +103,7 @@ main section div img{
 }
 main section div p{
     width:80%;
+    text-align:center;
 }
 main section div img [src="Images/Cordillera de los Andes - Mendoza.jpeg"]{
     width:30%;
