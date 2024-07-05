@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0px auto;
     padding:0px auto;
@@ -190,17 +191,30 @@ main details p{
 /* RESERVA */
 body main form{
     width:30%;
+    margin-bottom:1%;
+    margin-top:1%;
     border-radius:3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: antiquewhite;
-    margin-bottom:1%;
 }
 body main form h6{
     font-size:100%;
+    font-family: "Noto Sans", sans-serif;
+    margin-top:1%;
+}
+body main form select{
+    margin-bottom:1%;
+    margin-top:1%;
+    display:flex;
+}
+body main form [type="date"]{
+    margin-bottom:1%;
+    margin-top:1%;
 }
 body main form input[type="radio"]{
+    display:flex;
 }
 body main form input[type="submit"]{
     margin-bottom:1%;
